@@ -113,6 +113,7 @@
 		553DBF911B9C39BF0064CFE2 /* personCenterIcon_s@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 553DBF811B9C39BF0064CFE2 /* personCenterIcon_s@3x.png */; };
 		553DBF921B9C39BF0064CFE2 /* personCenterIcon_n@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 553DBF821B9C39BF0064CFE2 /* personCenterIcon_n@2x.png */; };
 		553DBF931B9C39BF0064CFE2 /* personCenterIcon_n@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 553DBF831B9C39BF0064CFE2 /* personCenterIcon_n@3x.png */; };
+		554565D51C85D98700F7D97A /* ResetPasswordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 554565D41C85D98700F7D97A /* ResetPasswordVC.m */; };
 		55655CDA1B94035200F95860 /* blurry_bg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55655CD81B94035200F95860 /* blurry_bg@3x.png */; };
 		55655CDB1B94035200F95860 /* login_bg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55655CD91B94035200F95860 /* login_bg@3x.png */; };
 		55655CDD1B9415A900F95860 /* registerImg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55655CDC1B9415A900F95860 /* registerImg@2x.png */; };
@@ -299,6 +300,8 @@
 		553DBF811B9C39BF0064CFE2 /* personCenterIcon_s@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "personCenterIcon_s@3x.png"; sourceTree = "<group>"; };
 		553DBF821B9C39BF0064CFE2 /* personCenterIcon_n@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "personCenterIcon_n@2x.png"; sourceTree = "<group>"; };
 		553DBF831B9C39BF0064CFE2 /* personCenterIcon_n@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "personCenterIcon_n@3x.png"; sourceTree = "<group>"; };
+		554565D31C85D98700F7D97A /* ResetPasswordVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResetPasswordVC.h; sourceTree = "<group>"; };
+		554565D41C85D98700F7D97A /* ResetPasswordVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResetPasswordVC.m; sourceTree = "<group>"; };
 		55655CD81B94035200F95860 /* blurry_bg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blurry_bg@3x.png"; sourceTree = "<group>"; };
 		55655CD91B94035200F95860 /* login_bg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login_bg@3x.png"; sourceTree = "<group>"; };
 		55655CDC1B9415A900F95860 /* registerImg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "registerImg@2x.png"; sourceTree = "<group>"; };
@@ -480,6 +483,8 @@
 				5530F8D81BA182E30098DD93 /* UploadCell.h */,
 				5530F8D91BA182E30098DD93 /* UploadCell.m */,
 				5530F8DA1BA182E30098DD93 /* UploadCell.xib */,
+				554565D31C85D98700F7D97A /* ResetPasswordVC.h */,
+				554565D41C85D98700F7D97A /* ResetPasswordVC.m */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -740,6 +745,7 @@
 					};
 					55AACA941B8DE90300AC82F5 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 2RQ5QD683U;
 						TestTargetID = 55AACA7B1B8DE90300AC82F5;
 					};
 				};
@@ -843,6 +849,7 @@
 				553692B01BA1BF880088D7B8 /* UIButton+WebCache.m in Sources */,
 				552F95B31B8F3E8C00ED18BC /* AFURLSessionManager.m in Sources */,
 				552F95B71B8F3E8C00ED18BC /* NSDictionary+RequestEncoding.m in Sources */,
+				554565D51C85D98700F7D97A /* ResetPasswordVC.m in Sources */,
 				5539F1091B99880E006CAF5D /* PersonInfoVC.m in Sources */,
 				552F95B01B8F3E8C00ED18BC /* AFURLConnectionOperation.m in Sources */,
 				553692B41BA1BF880088D7B8 /* UIImageView+HighlightedWebCache.m in Sources */,
@@ -976,7 +983,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "b30a0719-ffd3-4f9c-9746-51dc90370a5e";
+				PROVISIONING_PROFILE = "27531513-157c-4889-81ae-dbb177427144";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -1014,7 +1021,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PROVISIONING_PROFILE = "b30a0719-ffd3-4f9c-9746-51dc90370a5e";
+				PROVISIONING_PROFILE = "27531513-157c-4889-81ae-dbb177427144";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -1032,7 +1039,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "b30a0719-ffd3-4f9c-9746-51dc90370a5e";
+				PROVISIONING_PROFILE = "27531513-157c-4889-81ae-dbb177427144";
 			};
 			name = Debug;
 		};
@@ -1048,7 +1055,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "b30a0719-ffd3-4f9c-9746-51dc90370a5e";
+				PROVISIONING_PROFILE = "27531513-157c-4889-81ae-dbb177427144";
 			};
 			name = Release;
 		};
@@ -1056,6 +1063,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -1067,6 +1076,7 @@
 				INFOPLIST_FILE = WXCreditTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WXCredit.app/WXCredit";
 			};
 			name = Debug;
@@ -1075,6 +1085,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -1082,6 +1094,7 @@
 				INFOPLIST_FILE = WXCreditTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WXCredit.app/WXCredit";
 			};
 			name = Release;

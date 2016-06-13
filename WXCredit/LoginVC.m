@@ -9,6 +9,7 @@
 #import "LoginVC.h"
 #import "RegisterVC.h"
 #import "CenterVC.h"
+#import "ResetPasswordVC.h"
 #import "MsgString.h"
 #import "BGAFWebservice.h"
 #import "User.h"
@@ -58,6 +59,11 @@
 - (IBAction)registerBtnClick:(id)sender {
     RegisterVC *registerVC = (RegisterVC*)[[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"RegisterVC"];
     [self presentViewController:registerVC animated:YES completion:nil];
+}
+
+- (IBAction)resetPswBtnClick:(id)sender {
+    ResetPasswordVC *resetVC = (ResetPasswordVC*)[[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"ResetPasswordVC"];
+    [self presentViewController:resetVC animated:YES completion:nil];
 }
 
 -(IBAction)loginBtnClick:(id)sender {

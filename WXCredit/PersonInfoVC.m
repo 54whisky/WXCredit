@@ -149,6 +149,10 @@
                                  @{@"type":@"JHZ", @"name":@"结婚证", @"url":@"", @"filePath":@"", @"isEdit":@"0"},
                                  @{@"type":@"ZXZ", @"name":@"个人征信", @"url":@"", @"filePath":@"", @"isEdit":@"0"}]];
             
+            for (int i=0; i<_uploadImgArray.count; i++) {
+                NSMutableDictionary *dataDic = [_uploadImgArray[i] mutableCopy];
+                [_uploadImgArray replaceObjectAtIndex:i withObject:dataDic];
+            }
             [self getUploadImages];
             break;
     }

@@ -11,11 +11,11 @@
 
 // APP相关情
 #define HOST_NAME       @"58.211.191.118:9001"
-#define BASE_URL        @"http://www.nearfull.com:9000/"
+#define BASE_URL        @"http://www.shenghongweidai.com:9000/"
 
-#define ACCOUNT_URL     @"http://www.nearfull.com:9000/ws/v1/Account.asmx"
-#define CUSTOMER_URL    @"http://www.nearfull.com:9000/ws/v1/Customer.asmx"
-#define MESSAGE_URL     @"http://www.nearfull.com:9000/ws/v1/Message.asmx"
+#define ACCOUNT_URL     @"http://www.shenghongweidai.com:9000/ws/v1/Account.asmx"
+#define CUSTOMER_URL    @"http://www.shenghongweidai.com:9000/ws/v1/Customer.asmx"
+#define MESSAGE_URL     @"http://www.shenghongweidai.com:9000/ws/v1/Message.asmx"
 
 #define IOS7_OR_LATER   ( [[[UIDevice currentDevice] systemVersion] compare:@"7.0"] != NSOrderedAscending )
 
